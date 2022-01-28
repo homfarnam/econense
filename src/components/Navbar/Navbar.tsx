@@ -37,16 +37,16 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
             <div className='absolute w-full h-auto text-black bg-white top-[4.5rem] animate-fade'>
               <ul className='flex flex-col items-center justify-center w-full font-bold shadow-lg space-y-7'>
                 <li className='w-full py-3 text-center border-t border-b border-black cursor-pointer'>
-                  <a href='#about-us'> درباره ی ما</a>
-                </li>
-                <li className='w-full py-3 text-center border-b border-black cursor-pointer'>
-                  <a href='#register'>شرکت در اکوننس</a>
+                  <a href='#introduce'>معرفی اکوننس</a>
                 </li>
                 <li className='w-full py-3 text-center border-b border-black cursor-pointer'>
                   <a href='#goals'>اهداف</a>
                 </li>
                 <li className='w-full py-3 text-center border-b border-black cursor-pointer'>
-                  <a href='#introduce'>معرفی اکوننس</a>
+                  <a href='#register'>شرکت در اکوننس</a>
+                </li>
+                <li className='w-full py-3 text-center border-b border-black cursor-pointer'>
+                  <a href='#about-us'> درباره ی ما</a>
                 </li>
               </ul>
             </div>
