@@ -2,7 +2,7 @@ import { Title } from '..';
 
 const Goals = () => {
   return (
-    <div className='goals'>
+    <div className='goals' id='goals'>
       <Title title='اهداف' className='py-5 text-white' />
       <div className='flex items-center justify-around w-full p-10 text-center text-white'>
         <div className='flex flex-col items-center justify-center space-y-5'>

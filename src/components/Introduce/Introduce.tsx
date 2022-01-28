@@ -1,6 +1,6 @@
 const Introduce = () => {
   return (
-    <div className='flex flex-col items-end justify-start w-full my-10'>
+    <div id='introduce' className='flex flex-col items-end justify-start w-full my-10'>
       <h3 className='flex items-center justify-center w-full text-4xl'>معرفی اکوننس</h3>
       <div className='w-1/2 p-10 mt-10'>
         <p className='float-right leading-10 text-right text-black'>
