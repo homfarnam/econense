@@ -12,17 +12,17 @@ function App() {
       <Introduce />
       <Goals />
       <div className='flex items-center py-4 font-bold text-white justify-center w-full bg-[#FF7D01] space-x-3'>
-        <Button title='ثبت نام کنید' className='bg-white text-[#FF7D01] p-2 px-5 border' />
-        <div>آماده‌ی شرکت در یک چالش هیجان‌انگیز هستید؟ </div>
+        <Button title='ثبت نام کنید' className='bg-white text-[#FF7D01] p-2 px-3 md:px-5 border' />
+        <p className=''>آماده‌ی شرکت در یک چالش هیجان‌انگیز هستید؟ </p>
       </div>
 
       <div className='w-full h-full my-10' id='register'>
         <Title title='شرکت در اکوننس' />
-        <div className='flex items-center justify-around w-full my-10 text-center'>
-          <p className='w-1/6'>
+        <div className='flex items-center justify-around w-full px-3 my-10 text-center md:px-0'>
+          <p className='w-1/2 md:w-1/6'>
             وبینارها و کارگاه‌های آموزشی جهت کسب اطلاعات و انتقال تجربه از اساتید و حرفه‌ای‌ها
           </p>
-          <div className='w-1/6'>
+          <div className='w-1/2 md:w-1/6'>
             <p>آموزش های عمومی </p>
             <span>(آشنایی کلی با بازارهای مالی)</span>
           </div>
@@ -41,8 +41,8 @@ function App() {
         </div>
 
         <div className='flex items-center justify-center w-full my-10 space-x-10 text-center'>
-          <p className='w-1/6'>انجام معاملات در بازار شبیه سازی شده</p>
-          <div className='w-1/6'>
+          <p className='w-1/2 md:w-1/6'>انجام معاملات در بازار شبیه سازی شده</p>
+          <div className='w-1/2 md:w-1/6'>
             <p>آموزش های مرحله دوم </p>
             <span>(آشنایی با انواع تحلیل ها در بازار و آشنایی اولیه با تحلیل تکنیکال)</span>
           </div>
