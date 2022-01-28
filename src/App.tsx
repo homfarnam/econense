@@ -16,7 +16,7 @@ function App() {
         <div>آماده‌ی شرکت در یک چالش هیجان‌انگیز هستید؟ </div>
       </div>
 
-      <div className='w-full h-full my-10'>
+      <div className='w-full h-full my-10' id='register'>
         <Title title='شرکت در اکوننس' />
         <div className='flex items-center justify-around w-full my-10 text-center'>
           <p className='w-1/6'>
@@ -49,7 +49,7 @@ function App() {
         </div>
       </div>
 
-      <div className='w-full h-full my-10'>
+      <div className='w-full h-full my-10' id='about-us'>
         <Title title='درباره ی ما' />
         <p className='flex items-center justify-center w-full my-3 text-center'>
           برای برگزاری این رویداد بیش از 40 نفر از دانشجویان دانشگاه‌های معتبر کشور در ۵ گروه اصلی
