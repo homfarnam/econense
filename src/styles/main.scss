@@ -1,0 +1,14 @@
+* {
+  font-family: 'Vazir', sans-serif;
+}
+
+.homeSlider {
+  @apply flex flex-col justify-start w-full;
+  img {
+    @apply w-full h-full object-cover object-center;
+  }
+}
+
+.goals {
+  @apply w-full bg-[#023047] h-auto;
+}
