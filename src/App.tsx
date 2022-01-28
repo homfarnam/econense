@@ -16,8 +16,37 @@ function App() {
         <div>آماده‌ی شرکت در یک چالش هیجان‌انگیز هستید؟ </div>
       </div>
 
-      <div className='w-full h-full my-5'>
+      <div className='w-full h-full my-10'>
         <Title title='شرکت در اکوننس' />
+        <div className='flex items-center justify-around w-full my-10 text-center'>
+          <p className='w-1/6'>
+            وبینارها و کارگاه‌های آموزشی جهت کسب اطلاعات و انتقال تجربه از اساتید و حرفه‌ای‌ها
+          </p>
+          <div className='w-1/6'>
+            <p>آموزش های عمومی </p>
+            <span>(آشنایی کلی با بازارهای مالی)</span>
+          </div>
+        </div>
+        <div className='flex items-center justify-center w-full mt-16 '>
+          <p className='w-2/12 mx-3 text-right'>اهدای جوایز به نفرات برتر</p>
+          <div className='h-1 w-8/12 border bg-[#FF7D01] z-0 flex items-center justify-between'>
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+            <div className='w-10 h-10 border bg-[#ff7d01] rounded-full  z-10' />
+          </div>
+          <p className='w-2/12 mx-3 text-left'>ثبت نام در رویداد</p>
+        </div>
+
+        <div className='flex items-center justify-center w-full my-10 space-x-10 text-center'>
+          <p className='w-1/6'>انجام معاملات در بازار شبیه سازی شده</p>
+          <div className='w-1/6'>
+            <p>آموزش های مرحله دوم </p>
+            <span>(آشنایی با انواع تحلیل ها در بازار و آشنایی اولیه با تحلیل تکنیکال)</span>
+          </div>
+        </div>
       </div>
 
       <div className='w-full h-full my-10'>
