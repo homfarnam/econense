@@ -7,7 +7,7 @@ module.exports = {
   },
   mode: 'jit',
   variants: {},
-  plugins: [],
+  plugins: [require('tailwind-hamburgers')],
   purge: {
     // Filenames to scan for classes
     content: [
