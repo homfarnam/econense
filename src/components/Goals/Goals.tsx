@@ -4,7 +4,7 @@ const Goals = () => {
   return (
     <div className='goals' id='goals'>
       <Title title='اهداف' className='py-5 text-white' />
-      <div className='flex items-center justify-around w-full p-10 text-center text-white'>
+      <div className='flex flex-col items-center justify-around w-full p-10 space-y-10 text-center text-white md:space-y-0 md:flex-row'>
         <div className='flex flex-col items-center justify-center space-y-5'>
           <img src='/gears.png' alt='gears' />
           <p className='w-1/2'>
@@ -24,7 +24,8 @@ const Goals = () => {
           </p>
         </div>
       </div>
-      <div className='flex items-center justify-around w-full p-10 text-center text-white'>
+
+      <div className='flex flex-col items-center justify-around w-full p-10 space-y-10 text-center text-white md:space-y-0 md:flex-row'>
         <div className='flex flex-col items-center justify-center space-y-5'>
           <img src='/network.png' alt='network' />
           <p className='w-1/2'>تهیه‌ی شبکه‌ای غنی از گروهی از تجربه‌داران بازار سرمایه</p>

@@ -56,7 +56,7 @@ function App() {
           زیر گرد هم آمده‌اند:
         </p>
 
-        <div className='flex items-center justify-around w-full p-10 text-center text-black'>
+        <div className='flex flex-col items-center justify-around w-full p-10 space-y-10 text-center text-black md:flex-row md:space-y-0'>
           <div className='flex flex-col items-center justify-center space-y-5'>
             <img src='/team-hr.png' alt='team-hr' />
             <h3 className='text-[#FF7D01] text-3xl text-center'>تیم منابع انسانی</h3>
@@ -89,7 +89,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className='flex items-center justify-around w-full p-10 text-center text-black'>
+        <div className='flex flex-col items-center justify-around w-full p-10 space-y-10 text-center text-black md:space-y-0 md:flex-r0w'>
           <div className='flex flex-col items-center justify-center space-y-5'>
             <img src='/sponsorship.png' alt='sponsorship' />
             <h3 className='text-[#FF7D01] text-3xl text-center'>تیم اسپانسرشیپ</h3>
